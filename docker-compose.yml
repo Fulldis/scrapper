@@ -60,7 +60,7 @@ services:
       dockerfile: Dockerfile
     container_name: scrapping
     environment:
-      - TZ = 'Europe/Moscow'
+      - TZ:'Europe/Moscow'
     depends_on:
       kafka:
         condition: service_healthy

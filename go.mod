@@ -7,7 +7,6 @@ toolchain go1.23.1
 require (
 	github.com/99designs/gqlgen v0.17.56
 	github.com/IBM/sarama v1.43.3
-	github.com/JohannesKaufmann/html-to-markdown v1.6.0
 	github.com/PuerkitoBio/goquery v1.10.0
 	github.com/go-chi/chi/v5 v5.1.0
 	github.com/go-co-op/gocron v1.37.0
@@ -23,6 +22,7 @@ require (
 )
 
 require (
+	github.com/JohannesKaufmann/html-to-markdown v1.6.0 // indirect
 	github.com/agnivade/levenshtein v1.2.0 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
