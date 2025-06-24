@@ -87,6 +87,16 @@ services:
     ports:
       - "3000:3000"
 
+  tag_parser:
+    build:
+      context: ./hw2
+      dockerfile: Dockerfile
+    container_name: tag_parser
+    depends_on:
+      - scrapping
+    ports:
+      - "5000:5000"
+
 networks:
   default:
     driver: bridge
